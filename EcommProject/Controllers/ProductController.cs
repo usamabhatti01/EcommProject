@@ -23,6 +23,8 @@ namespace EcommProject.Controllers
         {
             var record = await productRepository.GetAllRecordAsync();
             return Ok(record);
+
+
         }
         [HttpGet]
 

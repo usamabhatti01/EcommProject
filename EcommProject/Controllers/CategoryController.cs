@@ -24,7 +24,7 @@ namespace EcommProject.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> GetALl()
         {
             var record = await categoryRepository.GetAllRecordAsync();
             return Ok(record);
