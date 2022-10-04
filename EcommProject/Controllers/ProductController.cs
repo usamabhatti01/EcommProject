@@ -25,7 +25,7 @@ namespace EcommProject.Controllers
             return Ok(record);
         }
         [HttpGet]
-        ///asdsadsadsasdfffa
+
         public async Task<IActionResult> GetALLTemp()
         {
             var record = await productRepository.GetAllRecordAsync();
