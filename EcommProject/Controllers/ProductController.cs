@@ -18,7 +18,8 @@ namespace EcommProject.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        ///asdsadsadsasdfffas
+        public async Task<IActionResult> GetALL()
         {
             var record = await productRepository.GetAllRecordAsync();
             return Ok(record);
