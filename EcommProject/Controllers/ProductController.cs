@@ -24,7 +24,13 @@ namespace EcommProject.Controllers
             var record = await productRepository.GetAllRecordAsync();
             return Ok(record);
         }
-     
+        [HttpGet]
+        ///asdsadsadsasdfffa
+        public async Task<IActionResult> GetALLTemp()
+        {
+            var record = await productRepository.GetAllRecordAsync();
+            return Ok(record);
+        }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBooksbyId([FromRoute] int id)
